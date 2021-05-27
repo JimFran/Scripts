@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Francisco J. Jimenez - ortfrnc - 17/05/2021 ####
+### Francisco J. - 17/05/2021 ####
 ### Phantom Tester script Version 5.3 ###
 
 ## Colors ##
@@ -28,7 +28,7 @@ echo "       *******************************************************************
 
 echo "${GREEN}#================================================================================================================#"
 echo "#                                                                                                                #"
-echo "#   Author: Francisco J. Jimenez Ortiz                                                                           #"
+echo "#   Author: Francisco J.                                                                                         #"
 echo "#                                                                                                                #"
 echo "#                                                                                                                #"
 echo "#   Version: 5.3        May 17th, 2021                                                                           #"
