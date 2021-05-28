@@ -33,7 +33,7 @@ echo "#                                                                         
 echo "#                                                                                                                #"
 echo "#   Version: 5.3        May 17th, 2021                                                                           #"
 echo "#                                                                                                                #"
-echo "#   Description: The Phantom Tester Script assists you on testing new circuits connection                        #"
+echo "#   Description: The Tester Script assists you on testing new circuits connection                                #"
 echo "#                This script usually will run in a Raspberry Pi but it can run into a laptop as well. Just       #"
 echo "#                give to the Raspberry Pi or laptop internet connection with a modem 3g/4g and connect the       #"
 echo "#                Raspberry Pi or laptop Ethernet interface into the new circuit. After running the script        #"
