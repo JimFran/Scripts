@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Francisco J. - 15/05/2021 ####
+### Francisco J. - 17/05/2021 ####
 ### Tester script Version 5.3 ###
 
 ## Colors ##
@@ -31,7 +31,7 @@ echo "#                                                                         
 echo "#   Author: Francisco J.                                                                                         #"
 echo "#                                                                                                                #"
 echo "#                                                                                                                #"
-echo "#   Version: 5.3        May 15th, 2021                                                                           #"
+echo "#   Version: 5.3        May 17th, 2021                                                                           #"
 echo "#                                                                                                                #"
 echo "#   Description: The Tester Script assists you on testing new circuits connection                                #"
 echo "#                This script usually will run in a Raspberry Pi but it can run into a laptop as well. Just       #"
